@@ -7,7 +7,7 @@ The for loop is a commonly used iterative structure that allows us to repeatedly
 ```Java
 for (初始化; 條件; 迭代) {//initialization; condition; iteration
     // 待執行的代碼
-    // code to execute
+    // Statements
 }
 ```
 
