@@ -42,3 +42,34 @@ for (int i = 1; i <= 5; i++) {
     System.out.println();
 }
 ```
+
+## 循環控制語句 (Loop Control)
+for循環還支持循環控制語句，包括break和continue。break語句可以立即結束當前循環，跳出循環體，而continue語句可以跳過當前循環，直接進入下一次循環。
+
+The for loop also supports loop control statements, including break and continue. The break statement can immediately end the current loop and jump out of the loop body, while the continue statement can skip the current loop and directly enter the next loop.
+### continue
+下面是一個例子，輸出1到10的數字，但跳過5：
+
+Here's an example that outputs numbers from 1 to 10, but skips 5:
+
+```java
+for (int i = 1; i <= 10; i++) {
+    if (i == 5) {
+       continue;
+    }
+    System.out.println(i);
+}
+```
+### break
+下面是一個例子，輸出1到10的數字，在遇到5時則跳出循環：
+
+Here is an example that outputs numbers from 1 to 10 and breaks out of the loop when 5 is encountered:
+
+```java
+for (int i = 1; i <= 10; i++) {
+    if (i == 5) {
+       break;
+    }
+    System.out.println(i);
+}
+```
