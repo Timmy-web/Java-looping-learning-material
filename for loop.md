@@ -15,9 +15,8 @@ for (初始化; 條件; 迭代) {//initialization; condition; iteration
 
 Among them, the initialization statement will be executed once before the loop starts; the condition statement will be checked before each loop starts, and the code in the loop body will be executed only when the condition is true; the iteration statement will be executed after each loop ends.
 
-下面是一個例子，輸出1到10的數字：
-
-Here is an example that outputs numbers from 1 to 10:
+    下面是一個例子，輸出1到10的數字：
+    Here is an example that outputs numbers from 1 to 10:
 
 ```Java
 for (int i = 1; i <= 10; i++) {
@@ -30,9 +29,8 @@ For循環可以嵌套，這樣可以讓我們遍歷多維數組或者執行更�
 
 For loops can be nested, which allows us to iterate over multidimensional arrays or perform more complex tasks. The syntax of a nested loop is similar to that of a normal for loop, except that the code in the loop body is changed to an inner loop.
 
-下面是一個例子，輸出一個5行5列的乘法表：
-
-Here is an example that outputs a multiplication table with 5 rows and 5 columns:
+    下面是一個例子，輸出一個5行5列的乘法表：
+    Here is an example that outputs a multiplication table with 5 rows and 5 columns:
 
 ```Java
 for (int i = 1; i <= 5; i++) {
@@ -48,9 +46,8 @@ for循環還支持循環控制語句，包括break和continue。break語句可�
 
 The for loop also supports loop control statements, including break and continue. The break statement can immediately end the current loop and jump out of the loop body, while the continue statement can skip the current loop and directly enter the next loop.
 ### continue
-下面是一個例子，輸出1到10的數字，但跳過5：
-
-Here's an example that outputs numbers from 1 to 10, but skips 5:
+    下面是一個例子，輸出1到10的數字，但跳過5：
+    Here's an example that outputs numbers from 1 to 10, but skips 5:
 
 ```java
 for (int i = 1; i <= 10; i++) {
@@ -61,9 +58,8 @@ for (int i = 1; i <= 10; i++) {
 }
 ```
 ### break
-下面是一個例子，輸出1到10的數字，在遇到5時則跳出循環：
-
-Here is an example that outputs numbers from 1 to 10 and breaks out of the loop when 5 is encountered:
+    下面是一個例子，輸出1到10的數字，在遇到5時則跳出循環：
+    Here is an example that outputs numbers from 1 to 10 and breaks out of the loop when 5 is encountered:
 
 ```java
 for (int i = 1; i <= 10; i++) {
