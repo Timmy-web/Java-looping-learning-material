@@ -93,3 +93,7 @@ for (int i = 1; i <= 10; i++) {
     2
     3
     4
+# Self Learning Material
+https://www.w3schools.com/python/python_for_loops.asp
+
+https://www.tutorialspoint.com/java/java_loop_control.htm
