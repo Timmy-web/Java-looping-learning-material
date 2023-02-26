@@ -1,5 +1,5 @@
 # 基本語法
-## For循環 (For Loops)
+## For循環 (For Loop)
 For循環是一種常用的迭代結構，它可以讓我們重複執行一段代碼多次。 for循環的基本語法如下：
 
 The for loop is a commonly used iterative structure that allows us to repeatedly execute a piece of code multiple times. The basic syntax of a for loop is as follows:
@@ -31,7 +31,7 @@ for (int i = 1; i <= 10; i++) {
     8
     9
     10
-## 嵌套循環 (Nested Loops)
+## 嵌套循環 (Nested Loop)
 For循環可以嵌套，這樣可以讓我們遍歷多維數組或者執行更複雜的任務。嵌套循環的語法和普通for循環類似，只是把循環體中的代碼改成一個內部的循環。
 
 For loops can be nested, which allows us to iterate over multidimensional arrays or perform more complex tasks. The syntax of a nested loop is similar to that of a normal for loop, except that the code in the loop body is changed to an inner loop.
