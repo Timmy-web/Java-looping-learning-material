@@ -12,4 +12,3 @@ ___
 ___
 ### 5. 輸出一個由數字組成的倒三角形，數字從9開始遞減，每行輸出一個數字。(嵌套循環)
 ### 5. Output an inverted triangle composed of numbers, the numbers are decremented from 9, and each line outputs a number. (Nested Loop)
-___
